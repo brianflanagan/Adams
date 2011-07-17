@@ -16,7 +16,7 @@ or start Thin:
 
     bundle exec thin start
 
-Now in MarsEdit, or the MetaWeblog-enabled _blogging application_ of your choice, point the API endpoint to 0.0.0.0:9393 (or 3000 if you're running via Thin). Publish a post in MarsEdit, and, in your browser, head to 0.0.0.0:9393 (or 3000 if you're running via Thin). See your post?
+Now in MarsEdit, or the MetaWeblog-enabled _blogging application_ of your choice, point the API endpoint to `0.0.0.0:9393` (or `3000` if you're running via Thin). Publish a post in MarsEdit, and, in your browser, head to `0.0.0.0:9393` (or `3000` if you're running via Thin). See your post?
 
 That's kablamo.
 
@@ -30,7 +30,7 @@ What you should is this:
 
 Go nuts. The app as-is does very little. Add pagination? Show the most recent posts on the index page? Maybe categories or tags? This is all gold; write this down.
 
-The front-end app is called "Clover" and it lives in the "apps" folder.
+The front-end app is called `Clover` and it lives in the `apps` folder. The haml files are in the `views` folder. There's a public folder. You know what to do with that?
 
 ## Test!
 
@@ -47,4 +47,6 @@ Deploy it where you like. But why not Heroku?
     heroku create myblogapp
     git push heroku master
 
-Awesome.
+Great.
+
+You changed the username/password combo in `configuration.yml`, right?
