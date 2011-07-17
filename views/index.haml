@@ -1,0 +1,10 @@
+%h2 Posts
+
+- if @posts.any?
+  %ul
+    - @posts.each do |post|
+      %li
+        %a{:href => post.path}
+          = post.title
+- else
+  %p No posts have been published.

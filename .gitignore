@@ -1,0 +1,7 @@
+.bundle
+.rvmrc
+.sass-cache
+log/*.log
+log/*.pid
+tmp/**/*
+.DS_Store

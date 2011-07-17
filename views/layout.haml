@@ -1,0 +1,15 @@
+!!! html5
+%html
+  %head
+    %title= Configuration.title
+  %body
+    %header
+      %h1= Configuration.title
+
+    %section
+      = yield
+
+    %footer
+      %p
+        &copy;
+        = Date.today.year
