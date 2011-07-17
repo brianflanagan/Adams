@@ -1,0 +1,29 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; border: 0; outline: 0; background: transparent; }
+
+blockquote, q { quotes: none; }
+
+:focus { outline: 0; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+body { background: #fff; color: #141818; font-size: 12px; font-family: georgia,serif; }
+
+a, a:link, a:visited { color: #47c5ed; text-decoration: none; }
+a:hover, a:link:hover, a:visited:hover { background: #47c5ed; color: #fff; }
+
+.body { width: 480px; margin: 0 auto; }
+
+header.body { padding: 30px 0 0; }
+header.body h1 { font-size: 36px; font-weight: 400; }
+header.body h1 a, header.body h1 a:link, header.body h1 a:visited { color: #141818; }
+header.body h1 a:hover, header.body h1 a:link:hover, header.body h1 a:visited:hover { color: #141818; background: none; }
+
+section.body header { padding: 15px 0; margin: 30px 0; border-top: 3px solid #ef5c37; }
+section.body header h2 { color: #4e5e5e; font-size: 21px; font-family: helvetica,arial,sans-serif; font-weight: 800; }
+section.body ul.posts { color: #4e5e5e; margin: 15px 0 15px 30px; list-style: disc outside; }
+section.body ul.posts li { padding: 5px 0; }
+section.body ul.posts li h3 { font-size: 24px; font-weight: normal; }
+section.body article { color: #4e5e5e; font-size: 14px; line-height: 24px; }
+section.body article p { margin: 0 0 14px; }
+
+footer.body { border-top: 3px solid #4e5e5e; margin: 45px auto 0; padding: 15px 0; color: #4e5e5e; text-align: right; }

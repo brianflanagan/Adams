@@ -2,14 +2,17 @@
 %html
   %head
     %title= Configuration.title
+    %meta{"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}
+    %link{"rel" => "stylesheet", "href" => "/stylesheets/clover.css", "type" => "text/css"}
   %body
-    %header
-      %h1= Configuration.title
+    %header.body
+      %h1
+        %a{:href => Configuration.root}= Configuration.title
 
-    %section
+    %section.body
       = yield
 
-    %footer
+    %footer.body
       %p
         &copy;
         = Date.today.year
