@@ -1,5 +1,10 @@
 module Adams
   class Clover < Sinatra::Base
+    
+    error 404 do
+      haml :four_oh_four
+    end
+    
     set :haml, :format => :html5
     
     set :views, "#{File.dirname(__FILE__)}/../views"
@@ -12,7 +17,11 @@ module Adams
     
     get '/e/:slug' do
       @post = Post.first(:slug => params[:slug])
-      haml :show, :format => :html5
+      if @post.nil?
+        halt 404
+      else
+        haml :show, :format => :html5
+      end
     end
     
     get '/f' do
