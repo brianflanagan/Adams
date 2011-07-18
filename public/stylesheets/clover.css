@@ -20,8 +20,8 @@ header.body h1 a:hover, header.body h1 a:link:hover, header.body h1 a:visited:ho
 
 section.body header { padding: 15px 0; margin: 30px 0; border-top: 3px solid #ef5c37; }
 section.body header h2 { color: #4e5e5e; font-size: 21px; font-family: helvetica,arial,sans-serif; font-weight: 800; }
-section.body ul.posts { color: #4e5e5e; margin: 15px 0 15px 30px; list-style: disc outside; }
-section.body ul.posts li { padding: 5px 0; }
+section.body ul.posts { color: #4e5e5e; margin: 15px 0; list-style: none; }
+section.body ul.posts li { padding: 5px 0; border-top: 1px solid #f5967e; }
 section.body ul.posts li h3 { font-size: 24px; font-weight: normal; }
 section.body article { color: #4e5e5e; font-size: 14px; line-height: 24px; }
 section.body article p { margin: 0 0 14px; }

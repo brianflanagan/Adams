@@ -30,6 +30,8 @@ What you should is this:
 
 Go nuts. The app as-is does very little. Add pagination? Show the most recent posts on the index page? Maybe categories or tags? This is all gold; write this down.
 
+At the very least edit `configuration.yml` to reflect your personal values. (And please, please change the password.)
+
 The front-end app is called `Clover` and it lives in the `apps` folder. The haml files are in the `views` folder. There's a public folder. You know what to do with that?
 
 ## Test!
